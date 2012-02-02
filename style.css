@@ -1,0 +1,23 @@
+html, body, section#wrap {
+	height: 100%; 
+}
+
+body > section#wrap {
+	height: auto; 
+	min-height: 100%;
+}
+header#header {
+	height: 100px;
+}
+footer#footer {
+	height: 100px;
+	clear:both;
+}
+
+.absCenter {
+	position: absolute;
+}
+
+header, footer {
+	background: #999;
+}
